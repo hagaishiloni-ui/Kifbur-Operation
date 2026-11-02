@@ -6,7 +6,7 @@
 
 ## הגדרה פורמלית
 
-לכל שני מספרים (a,b):
+לכל שני מספרים ממשיים \(a,b\):
 
 \[
 a \;\boldsymbol{\⊛}\; b = (a \times b)+b = b(a+1)
@@ -23,7 +23,7 @@ a \;\boldsymbol{\⊛}\; b = (a \times b)+b = b(a+1)
 בהנחה שהפעולה מוגדרת על המספרים הממשיים:
 
 - **אינה חילופית:** למשל, \(4⊛3=15\), אבל \(3⊛4=16\).
-- **אינה אסוציאטיבית:** \((a⊛b)⊛c = a⊛(b⊛c)+c\), ולכן בדרך כלל שני האגפים אינם שווים.
+- **אינה אסוציאטיבית:** מתקיים \((a⊛b)⊛c-a⊛(b⊛c)=-ac\), ולכן בדרך כלל שני הביטויים אינם שווים.
 - **איבר ניטרלי משמאל:** \(0⊛a=a\).
 - **אין איבר ניטרלי דו-צדדי:** אין מספר \(e\) המקיים גם \(e⊛a=a\) וגם \(a⊛e=a\) לכל \(a\).
 - **איבר מאפס מימין:** \(a⊛0=0\).
@@ -38,7 +38,9 @@ a ⊛ b = (a \times b)+b = b(a+1)
 
 Examples: \(4⊛3=15\), and \(5⊛2=12\).
 
-The operation is generally non-commutative and non-associative. It has a left identity, 0, and a right absorbing element, 0.
+The operation is generally non-commutative and non-associative. More precisely,
+\((a⊛b)⊛c-a⊛(b⊛c)=-ac\).
+It has a left identity, 0, and a right absorbing element, 0.
 
 **Defined and proposed by: Hagai Shiloni (חגי שילוני).**
 
